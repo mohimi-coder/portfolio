@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <nav>
+    <div class="logo">MyPortfolio</div>
+    <ul>
+      <li><a href="#home" class="active">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home">
+    <div class="home-content">
+      <h1>Welcome to My Portfolio</h1>
+      <p>Hi, I'm Mohamed Himi, a passionate web developer dedicated to creating seamless and beautiful digital experiences. Explore my projects, and let’s connect to bring your next idea to life!</p>
+      <a href="#projects" class="cta-button">Explore My Work</a>
+    </div>
+  </section>
+  
+
+  <!-- About Us Section -->
+  <section id="about">
+    <div class="about-container">
+      <div class="about-text">
+        <h2>About Me</h2>
+        <p>
+          Hi! I'm <strong>Mohamed Himi</strong>, a passionate web developer with a deep love for creating digital solutions that empower businesses. With expertise in <span class="highlight">HTML, CSS, JavaScript</span>, and modern web technologies, I build responsive, user-friendly websites and applications.
+        </p>
+        <p>
+          I believe in combining aesthetics with functionality, ensuring each project is not only beautiful but also intuitive and seamless. Whether working independently or as part of a team, my goal is always to deliver high-quality results that drive success for clients.
+        </p>
+        <p>
+          When I'm not coding, you can find me exploring new tech trends, contributing to open-source projects, and refining my skills. I love problem-solving and turning complex challenges into simple, elegant solutions that make a real difference.
+        </p>
+      </div>
+  
+      <!-- Optional Profile Image Section -->
+      <div class="about-image">
+        <img src="./images/mypic.jpeg" alt="Mohamed Himi - Web Developer" />
+      </div>
+    </div>
+  
+    <div class="skills">
+      <h3>Skills & Technologies</h3>
+      <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript (ES6+)</li>
+        <li>React.js</li>
+        <li>Node.js</li>
+        <li>Git & GitHub</li>
+        <li>Responsive Web Design</li>
+        <li>Firebase</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>My Projects</h2>
+  <div class="projects-container">
+    <!-- Project 1 -->
+    <div class="project-card">
+      <img src="./images/inception.png" alt="Project 1" />
+      <div class="project-info">
+        <h3>Inception-42-project</h3>
+        <p>
+          Inception 42 was a cutting-edge, interdisciplinary project designed to push the boundaries of [specific domain, e.g., AI, machine learning, software development, design, etc.]. 
+          As a key member of the team, I played a crucial role in [specific role or responsibility, e.g., developing core algorithms, leading design efforts, optimizing performance, etc.].
+        </p>
+        <a href="https://github.com/mohimi-coder/inception" target="_blank" class="project-link">View Project</a>
+      </div>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="project-card">
+      <img src="./images/minishell.png" alt="Project 2" />
+      <div class="project-info">
+        <h3>MiniShell-42-project</h3>
+        <p>
+          This project was one of the most challenging yet rewarding experiences in the 42 curriculum. It involved handling numerous test cases and learning a wide range of topics, from software architecture and system calls to team coordination and task distribution.
+        </p>
+        <a href="https://github.com/mohimi-coder/minishell" target="_blank" class="project-link">View Project</a>
+      </div>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="project-card">
+      <img src="./images/cub3D.png" alt="Project 3" />
+      <div class="project-info">
+        <h3>cub3D-42-project</h3>
+        <p>
+          This project’s objectives are similar to all this first year’s objectives: Rigor, use of C, use of basic algorithms, information research etc. As a graphic design project, cub3D will enable you to improve your skills in these areas: windows, colors, events, fill shapes, etc.
+        </p>
+        <a href="https://github.com/mohimi-coder/cub3D" target="_blank" class="project-link">View Project</a>
+      </div>
+    </div>
+  </div>
+  </section>
+
+  <!-- Contact Us Section -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>
+      Have any questions or want to work together? Feel free to send me a message, and I’ll get back to you as soon as possible!
+    </p>
+
+    <form id="contact-form">
+      <label for="name">Your Name</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required />
+
+      <label for="email">Your Email</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required />
+
+      <label for="message">Your Message</label>
+      <textarea id="message" name="message" rows="5" placeholder="Write your message here" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Use "module" type for your custom script -->
+  <script type="module" src="scripts.js"></script>
+</body>
+</html>
